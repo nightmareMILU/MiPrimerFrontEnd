@@ -1,0 +1,156 @@
+
+h1 {
+    color: forestgreen; 
+    font-family: consolas;
+    text-decoration: underline;
+    background-color: #21381D;
+    text-align: center;
+    padding: 10px;
+}
+
+.caja1 {
+    color: #172117;
+    background-color: #7A997A;
+    border-style: dashed;
+    overflow: hidden; 
+    padding: 15px;
+}
+
+.contenedor {
+    color: #172117;
+    background-color: #7A997A;
+    border-style: dotted;
+    overflow: hidden;
+    padding: 15px;
+}
+
+
+a.j2m:link {
+    background-color: #307D00;
+    color: black;
+}
+
+a.j2m:visited {
+    background-color: #5EFFF8;
+    color: black;
+}
+
+a.j2m:hover {
+    background-color: #B8460D;
+    color: #591E01;
+}
+
+
+a.actor:link {
+    background-color: green;
+    color: #07071C ;
+}
+
+a.actor:visited {
+    background-color: #67701B ;
+    color: #BBC93E ;
+}
+
+a.actor:hover {
+    color: white ;
+    background-color: #13AB13 ;
+    text-decoration: underline;
+}
+
+
+.dean, .sam, .des2 { 
+    float: right; 
+    margin: 0 0 10px 20px; 
+    width: 200px; 
+    height: 200px; 
+}
+
+.cas, .des3 { 
+    float: left; 
+    margin: 0 20px 10px 0; 
+    width: 200px; 
+    height: 180px; 
+}
+
+.supernatural, .deancas { 
+    float: left; 
+    margin: 0 20px 10px 0; 
+    width: 700px; 
+}
+
+
+.destiel {
+    color: #1F4261;
+    background-color: #75EBB0;
+    border-style: double;
+    border-color: navy;
+    padding: 15px;
+}
+a.casdean:link {
+    background-color: darkgreen;
+    color: darkgray ;
+}
+
+a.casdean:visited { 
+    background-color: purple ;
+    color: hotpink;
+}
+
+a.casdean:hover {
+    color: indianred ;
+    background-color: lime;
+    
+}
+.desti {
+    color: #00CF00;
+    background-color: #334066;
+    border-style: dotted;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.Personaje {
+    font-family: 'Courier New', Courier, monospace;
+    color: #A5C4E8;
+    background-color: #002902;
+    padding: 5px;
+}
+
+.tabla {
+    color: #172117;
+    background-color: #7A997A;
+    border-style: dotted;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.linkA {
+    color: white;
+    background-color: black;
+    border-style: dotted;
+}
+
+a.linkA:hover {
+        background-color:#C83BFF;
+        color:#7D0047;
+ }
+
+.nav {color: #468200;
+    background-color: #7A997A;
+    border-style: dotted; }
+
+a.nav:link {
+    background-color: darkgreen;
+    color: darkgray ;
+}
+
+a.nav:visited { 
+    background-color: purple ;
+    color: hotpink;
+}
+
+a.nav:hover {
+    color: indianred ;
+    background-color: lime;
+    text-decoration: underline;
+}

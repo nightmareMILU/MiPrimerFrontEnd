@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mile.css">
+    <title>Contacto - Supernatural</title>
+</head>
+<body>
+    <nav> <div class="nav"> <h3>
+    <a href="mile2.html" class="link">Inicio</a> | 
+    <a href="mile3.html" class="link">Destiel</a> | 
+    <a href="mile4.html" class="link">Reportar Caso (Contacto)</a> </h3></div>
+</nav>
+
+
+    <h1>REPORTE DE CASOS</h1>
+
+    <div class="contenedor">
+        <h3>Detalles del avistamiento:</h3>
+        <form onsubmit="return false;">
+            <label class="Personaje">Tipo de criatura:</label><br>
+            <input type="text" id="bicho" placeholder="Ej: Demonio, Cambiaformas"><br><br>
+            
+            <label class="Personaje">Tu Nombre de Cazador:</label><br>
+            <input type="text" id="nomCazador" placeholder="Tu nombre"><br><br>
+            
+            <input type="button" value="ENVIAR REPORTE" class="link" onclick="enviarReporte()">
+        </form>
+    </div>
+
+    <script language="javascript">
+        function enviarReporte() {
+            var nombre = document.getElementById("nomCazador").value;
+            var criatura = document.getElementById("bicho").value;
+
+            if (nombre == "" || criatura == "") {
+                alert("¡Faltan datos! Los Winchester necesitan saber quién sos y qué viste.");
+            } else {
+                alert("¡Entendido, " + nombre + "! Reporte enviado. Sam y Dean ya saben que hay un " + criatura + " suelto.");
+                
+               
+                document.write("<html><head><link rel='stylesheet' type='text/css' href='mile.css'></head>");
+                document.write("<body>");
+                document.write("<div class='desti'>");
+                document.write("<h1>REPORTE PROCESADO</h1>");
+                document.write("<h3>Gracias " + nombre + ", el Impala está en camino a cazar al " + criatura + ".</h3>");
+                document.write("<br><br><a href='mile2.html' class='linkA'>Volver al Inicio</a>");
+                document.write("</div>");
+                document.write("</body></html>");
+            }
+        }
+    </script>
+</body>
+</html>
